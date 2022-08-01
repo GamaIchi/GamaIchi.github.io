@@ -3,6 +3,10 @@
   background-color: #3bc0e8;
 }
 
+.btn {
+  background: #000;
+}
+
 #about {
   padding-top: 6rem;
 }
