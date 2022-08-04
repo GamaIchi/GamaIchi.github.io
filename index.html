@@ -215,6 +215,7 @@
             success.classList.toggle("d-none");
             form.reset();
           })
+
           .catch((error) => {
             console.error("Error!", error.message);
             fail.classList.toggle("d-none");
@@ -222,6 +223,9 @@
             btnKirim.classList.toggle("d-none");
             form.reset();
           });
+
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
       });
     </script>
   </body>
